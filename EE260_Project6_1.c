@@ -2,7 +2,7 @@
 
 #define RS 0x20     //0b 0000 0010
 #define EN 0x80      //0b 0000 1000
-//
+
 void delayMs(int);
 void keypad_init(void);
 char keypad_getkey(void);
